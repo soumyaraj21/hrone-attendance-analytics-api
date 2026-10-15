@@ -1,0 +1,60 @@
+# Python artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+
+# Environment variables & secrets
+.env
+.env.*
+!.env.example
+secrets/
+*.secret
+*.pem
+*.key
+
+# Testing & cache
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Local IDE & language server configurations (machine-specific)
+.vscode/
+.idea/
+pyrefly.toml
+pyrightconfig.json
+
+# Problem statement & internal planning documents (confidential)
+PROBLEM_STATEMENT.docx
+problemstatement.md
+context.md
+implementation_plan.md
+architecture.md
+
+# OS metadata
+.DS_Store
+Thumbs.db
+
+sample_seed.py
